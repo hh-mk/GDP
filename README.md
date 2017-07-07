@@ -1,4 +1,7 @@
 # GDP
+
+support MR,CT,PET-CT
+
 ![name](./demo.gif)
 
 ## Author
