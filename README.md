@@ -2,6 +2,12 @@
 
 support MR,CT,PET-CT
 
+
+In order to fit more dicom files, we first adapted the dicom file in the cloud, then converted to a more readable json file, and removed the redundant fields in the dicom.
+Now only dicom show, the future will add more features, such as multi-window, positioning line, roi, mpr, etc.
+
+Open source is to better enhance the efficiency of doctors, to delay human life and work!
+
 ![name](./demo.gif)
 
 ## Author
