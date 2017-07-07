@@ -3,7 +3,7 @@
 
 ## Author
 
-This project is maintained by the [HHMedic](http://www.hh-medic.com) company, a team of experienced software engineers from the china. TRUST FIRST !   Just [contact us](mailto:mk@hh-medic.com).
+This project is maintained by the HH-MEDIC company, a team of experienced software engineers from the china. TRUST FIRST !   Just [contact us](mailto:mk@hh-medic.com).
 
 ## License
 
