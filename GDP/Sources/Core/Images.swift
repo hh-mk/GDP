@@ -41,9 +41,12 @@ struct CreateImage
         
         let context = CGContext(data: data, width: width, height: height, bitsPerComponent: 8, bytesPerRow: bytesPerRow, space: config.colorSpace, bitmapInfo: config.bitmapInfo.rawValue)
         
-        guard let cgImage = context?.makeImage() else { return nil }
+        guard let cgImage = context?.makeImage() else { 
+            data.deallocate()
+            return nil 
+        }
         
-        data.deallocate(capacity: aPixels.count)
+        data.deallocate()
         
         return UIImage(cgImage: cgImage)
 
